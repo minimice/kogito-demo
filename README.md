@@ -37,8 +37,12 @@ curl -X POST http://localhost:8080/persons/3dfdef60-4913-408e-a795-2a7c5ceef378/
     -d '{}'
 `
 
-Building docker image
+- Building docker image  
 https://quarkus.io/guides/building-native-image
 
-./mvnw package -Pnative -Dquarkus.native.container-build=true -Dquarkus.container-image.build=true
+- Building commands
+./mvnw package -Pnative -Dquarkus.native.container-build=true -Dquarkus.container-image.build=true  
 #-Dquarkus.container-image.name=local/kogito-demo -Dquarkus.container-image.tag=latest -Dquarkus.container-image.builder=docker
+
+- Task management  
+https://blog.kie.org/2021/09/manage-processes-and-tasks-using-kogito-consoles.html
